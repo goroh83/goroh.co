@@ -41,7 +41,3 @@ $(".scroll__img").click(function() {
     }, 800);
 });
 
-
-$(document).ready(function(){
-     $(".scroll").effect("bounce", { times:3 }, 5000);
-});

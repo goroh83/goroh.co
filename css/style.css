@@ -86,28 +86,24 @@ header:after {
 .scroll {
     position: absolute;
     left: 50%;
-    cursor: pointer;
     -webkit-animation: bounce 2s infinite ;
     -moz-animation: bounce 2s infinite ;
     animation: bounce 2s infinite ;
 }
 
 .scroll img {
+    cursor: pointer;
     margin-left: -50%;
     padding:5px;
+    margin: 5px;
     width: auto;
     border: 1px solid #507274;
     }
 
-@-webkit-keyframes bounce {
-    0%, 50% 100% {-webkit-transform: translateY(0);}
-    40% {-webkit-transform: translateY(-15px);}
-    60% {-webkit-transform: translateY(-15px);}
-}
+
 @keyframes bounce {
     0%, 50%; 100% {transform: translateY(0);}
-    40% {transform: translateY(-15px);}
-    60% {transform: translateY(-15px);}
+    50% {transform: translateY(20px);}
 }
 @media screen and (min-width: 1350px) {
    .scroll{
@@ -168,13 +164,14 @@ header:after {
 a.btn {
     box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.3);
     transition: all ease-in-out 300ms;
+    background-color: #386F72;
 }
 
 a.btn:hover {
     color: #f1f1f1;
-    background-color: #293249;
-    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-    transform: translate(0px, -10px);
+    background-color: #385172;
+    box-shadow: 0px 37px 20px -15px rgba(0,0,0,0.2);
+    transform: translate(0px,-4px);
 }
 
 a {
