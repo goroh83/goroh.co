@@ -165,12 +165,18 @@ header:after {
     }
 }
 
-
+a.btn {
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.3);
+    transition: all ease-in-out 300ms;
+}
 
 a.btn:hover {
     color: #f1f1f1;
     background-color: #293249;
+    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+    transform: translate(0px, -10px);
 }
+
 a {
     color: #507274;
     text-decoration: none;
