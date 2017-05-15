@@ -51,6 +51,12 @@ img {
     max-width: 100%;
     border-radius: 2px;
 }
+
+img.socials-bottom {
+    height: 25px;
+    margin-bottom: -6px;
+}
+
 .img-shadow {
     -webkit-box-shadow: 3px 3px 14px 0px rgba(212, 205, 212, 1);
     -moz-box-shadow: 3px 3px 14px 0px rgba(212, 205, 212, 1);
@@ -373,7 +379,7 @@ footer #copyright a:hover {
     color: #524D70;
 }
 
-footer p img {
+footer img {
     height: 1.25em;
     width: 1.25em;
     display: inline;
@@ -630,9 +636,9 @@ footer p img {
     #menu ul li a:hover {
         background-color: #C4C6C6;
     }
-    .insta {
+    .socials {
         display: block;
-        height: 30px;
+        height: 1.6em;
     }
 }
 
@@ -655,11 +661,7 @@ footer p img {
         padding-top: 110px;
     }
 
-    .insta-2 {
-        display: none;
-    }
-
-    .fb-2 {
+    .social-icons-top {
         display: none;
     }
 }
@@ -703,15 +705,17 @@ footer p img {
     .social-icons-top{
         position: absolute;
         top: 15px;
-        right:3.5vw;
+        right: 1.5vw;
     }
     .insta-2 {
+        display: inline;
         height: 35px;
-        width: 40px;
+        width: auto;
     }
     .fb-2 {
+        display: inline;
         height: 35px;
-        width: 40px;
+        width: auto;
     }
 }
 
