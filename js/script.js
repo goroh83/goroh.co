@@ -1,6 +1,12 @@
 $(document).ready(function () {
-    $('.scroll').delay(2500).fadeIn();
+    $('.scroll').delay(2000).fadeIn(500);
 });
+
+var w = window.innerWidth;
+
+if (w < 890) {
+    $('.scroll').hide();
+}
 
 $(function () {
     $('#menu-icon').on('click', function () {

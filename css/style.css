@@ -110,7 +110,9 @@ header:after {
     50% {transform: translateY(20px);}
 }
 @media screen and (min-width: 1350px) {
+
    .scroll{
+    display: none;
     top:  500px;
     }
     .scroll img {
@@ -119,6 +121,7 @@ header:after {
 }
 @media screen and (min-width: 1250px)and (max-width: 1350px){
    .scroll{
+    display: none;
     top:  470px;
     }
     .scroll img {
@@ -127,6 +130,7 @@ header:after {
 }
 @media screen and (min-width: 1150px)and (max-width: 1250px){
    .scroll{
+    display: none;
     top:  420px;
     }
     .scroll img {
@@ -135,6 +139,7 @@ header:after {
 }
 @media screen and (min-width: 1050px)and (max-width: 1150px){
    .scroll{
+           display: none;
     top:  390px;
     }
     .scroll img {
@@ -143,6 +148,7 @@ header:after {
 }
 @media screen and (min-width: 950px) and (max-width: 1050px)  {
    .scroll{
+           display: none;
     top:  350px;
     }
     .scroll img {
@@ -152,6 +158,7 @@ header:after {
 }
 @media screen and (min-width: 890px) and (max-width: 950px)  {
    .scroll{
+           display: none;
     top:  320px;
     }
     .scroll img {
@@ -162,6 +169,7 @@ header:after {
 @media screen and (max-width: 890px) {
     .scroll {
         display: none;
+        visibility: hidden;
     }
 }
 
