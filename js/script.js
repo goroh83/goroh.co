@@ -1,3 +1,7 @@
+$(document).ready(function () {
+    $('.scroll').delay(2500).fadeIn();
+});
+
 $(function () {
     $('#menu-icon').on('click', function () {
         $("#menu").slideToggle("slow");
@@ -19,13 +23,13 @@ $('#menu').on('click', function () {
 });
 
 // accordion
-$(document).ready(function() {
-  $("#accordion section h3").click(function(e) {
-    $(this).parents().siblings("section").addClass("ac_hidden");
-    $(this).parents("section").removeClass("ac_hidden");
+$(document).ready(function () {
+    $("#accordion section h3").click(function (e) {
+        $(this).parents().siblings("section").addClass("ac_hidden");
+        $(this).parents("section").removeClass("ac_hidden");
 
-    e.preventDefault();
-  });
+        e.preventDefault();
+    });
 });
 
 
@@ -35,9 +39,8 @@ function goBack() {
 }
 
 /* scroll down button */
-$(".scroll__img").click(function() {
+$(".scroll__img").click(function () {
     $('html, body').animate({
         scrollTop: $(".scroll-down").offset().top
     }, 800);
 });
-
