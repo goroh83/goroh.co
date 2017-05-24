@@ -19,11 +19,16 @@ html {
     margin: 0;
     padding: 0;
     width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Ovo', serif;
     font-weight: normal;
     color: #293249;
+    line-height: 1em;
+    padding-bottom: 10px;
+
 }
 body {
     margin: 0;
@@ -71,6 +76,11 @@ header:after {
     content:' ';
     display: block;
     border-bottom: 1px solid #293249;
+}
+
+.toggle-menu {
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 @media only screen and (min-width: 500px) {
@@ -655,6 +665,7 @@ footer img {
 /* parallax adjustment */
 
 @media only screen and (max-width: 890px) {
+
     .parallax-text h2 {
         font-size: 1.5em;
         padding-bottom: 20px;
@@ -668,7 +679,7 @@ footer img {
     .parallax-text {
         text-align: center;
         margin: 0 auto;
-        padding-top: 110px;
+        padding-top: 80px;
     }
 
     .social-icons-top {
