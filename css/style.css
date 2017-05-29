@@ -38,10 +38,12 @@ body {
     width: 100%;
     position: relative;
 }
-header,nav.menu,nav.menu-2,footer,section, article {box-sizing: border-box;}
+header,nav.menu,nav.menu-2,footer,section, article {
+    box-sizing: border-box;
+}
+
 hr {
     border: none;
-    height: 20px;
     width: 90%;
     height: 50px;
     border-bottom: 1px solid #aca1a1;
@@ -266,6 +268,10 @@ header {
 }
 #home-intro div {
     padding: 30px;
+}
+
+.home-about-2 .goroh-avatar {
+    max-width: 70%;
 }
 
 #home-intro img {
@@ -1082,6 +1088,10 @@ footer img {
     margin: 40px 30px 30px 30px;
 }
 
+.services-intro__hr {
+    margin-top: 0px;
+}
+
 #services-intro {
     margin-top: 60px;
     margin-top: 40px;
@@ -1228,6 +1238,7 @@ footer img {
     #services-intro-1 {
         flex: 2;
         max-width: 700px;
+        margin-bottom: 30px;
     }
     #services-intro-2 {
         flex: 1;

@@ -38,7 +38,6 @@ $(document).ready(function () {
     });
 });
 
-
 /* contact-error button function */
 function goBack() {
     window.history.back();
