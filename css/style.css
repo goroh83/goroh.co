@@ -1304,12 +1304,6 @@ footer img {
     font-size: 1.15em;
 }
 
-#work img {
-    margin-top: 40px;
-    margin-bottom: 80px;
-    max-width: 75%;
-    }
-
 
 @media only screen and (max-width: 860px) {
 
@@ -1318,13 +1312,28 @@ footer img {
         padding-top: 20px;
     }
 
+
     .work-1, .work-2, .work-3, .work-4,.work-5, .work-6,.work-7, .work-8, .work-9, .work-10 {
         margin-top: 40px;
+    }
+    #work img {
+        max-width: 75%;
+        display: block;
+        margin: 40px auto 80px auto;
+    }
+
+    #work>div>a {
+        display: block;
+        margin: 0 auto;
     }
 }
 
 @media only screen and (min-width: 860px) {
-
+    #work img {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        max-width: 75%;
+    }
     #work-intro {
         max-width: 800px;
         margin-top: 40px;
