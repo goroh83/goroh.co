@@ -1318,7 +1318,7 @@ footer img {
         padding-top: 20px;
     }
 
-    .work-1, .work-2, .work-3, .work-4,.work-5, .work-6,.work-7, .work-8 {
+    .work-1, .work-2, .work-3, .work-4,.work-5, .work-6,.work-7, .work-8, .work-9, .work-10 {
         margin-top: 40px;
     }
 }
@@ -1338,7 +1338,7 @@ footer img {
         flex-wrap: wrap;
     }
 
-    .work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-7, .work-8 {
+    .work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-7, .work-8, .work-9, .work-10 {
         flex:1;
         min-width: 45%;
         margin: 50px 20px;
@@ -1367,6 +1367,12 @@ footer img {
     }
     .work-8 {
         order: 7;
+    }
+    .work-9 {
+        order: 9;
+    }
+    .work-10 {
+        order: 10;
     }
 
 }
