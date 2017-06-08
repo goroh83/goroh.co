@@ -1086,6 +1086,10 @@ footer img {
     margin: 40px 30px 30px 30px;
 }
 
+#accord h3 {
+    cursor: pointer;
+}
+
 .services-intro__hr {
     margin-top: 0px;
 }
