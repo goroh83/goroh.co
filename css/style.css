@@ -37,8 +37,15 @@ button {
     font-size: 0.9em;
     margin:20px auto;
     display:block;
-    text-align: center;
     border: none;
+}
+
+#submit-btn {
+    margin-left: 0;
+}
+
+#parallax-btn {
+    margin-top: 5px;
 }
 
 body {
@@ -107,7 +114,6 @@ header:after {
 }
 
 /* banner scroll down */
-
 .scroll {
     display: none;
     position: absolute;
@@ -125,7 +131,6 @@ header:after {
     width: auto;
     border: 1px solid #507274;
     }
-
 
 @keyframes bounce {
     0%, 50%; 100% {transform: translateY(0);}
@@ -335,7 +340,6 @@ blockquote {
 .parallax1 {
     position: relative;
     background-image: url(../img/paralax1.jpg);
-/*     height: 550px; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -346,7 +350,6 @@ blockquote {
 .parallax2 {
     position: relative;
     background-image: url(../img/paralax2.jpg);
-    height: 550px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -356,16 +359,22 @@ blockquote {
 }
 
 .parallax-text {
-    max-width: 80%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .parallax-text h2 {
     font-size: 1.7em;
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 .parallax-text p {
     font-size: 1.2em;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 #footer-hr {
@@ -422,9 +431,7 @@ footer img {
     margin-bottom: -4.5px;
 }
 
-
 /* btn style*/
-
 @media only screen and (min-width: 860px) {
     .page-wrapper {
         max-width: 1240px;
@@ -443,13 +450,6 @@ footer img {
         margin: 20px auto;
         letter-spacing: 2px;
     }
-
-    .parallax-text {
-        text-align: center;
-        margin: 0 auto;
-        padding-top: 180px;
-}
-
 }
 @media only screen and (max-width: 860px) {
     .btn {
@@ -572,7 +572,6 @@ footer img {
 }
 
 /* menu styling */
-
 @media only screen and (min-width: 880px) {
     #menu-icon {
         display: none;
@@ -596,7 +595,6 @@ footer img {
 }
 
 /* menu mobile*/
-
 @media only screen and (min-width: 890px) {
     .insta-hidden {
         display: none;
@@ -673,51 +671,26 @@ footer img {
         display: block;
         height: 1.6em;
     }
-}
-
-/* parallax adjustment */
-
-@media only screen and (max-width: 890px) {
-
-    .parallax-text h2 {
-        font-size: 1.5em;
-        padding-bottom: 20px;
-    }
-    .parallax-text p {
-        font-size: 1em;
-        padding-bottom: 30px;
-        margin-bottom: 0px;
-    }
-
-    .parallax-text {
-        text-align: center;
-        margin: 0 auto;
-        padding-top: 80px;
-    }
-
     .social-icons-top {
         display: none;
     }
 }
 
-/* parallax style small screen */
-@media only screen and (max-width: 760px) {
-    .parallax1{
-       height: 400px;
-    }
-    .parallax2{
-       height: 400px;
+/* parallax styling*/
+@media only screen and (min-width: 860px) {
+    .parallax1, .parallax2 {
+        height: 500px;
     }
 }
 
-@media only screen and (min-width: 760px) {
-    .parallax1{
-       height: 550px;
+@media only screen and (max-width: 860px) {
+    .parallax1, .parallax2 {
+        height: 350px;
     }
 }
+
 
 /* instagram icon menu adjustment */
-
 @media only screen and (min-width: 890px) {
     .toggle-menu {
         display: none;
