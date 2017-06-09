@@ -30,6 +30,17 @@ h1,h2,h3,h4,h5,h6 {
     padding-bottom: 10px;
 
 }
+
+button {
+    background: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin:20px auto;
+    display:block;
+    text-align: center;
+    border: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -430,10 +441,7 @@ footer img {
         transition: background-color .8s ease;
         display: inline-block;
         margin: 20px auto;
-    }
-    .btn-center {
-        margin: 0 0;
-        text-align: center;
+        letter-spacing: 2px;
     }
 
     .parallax-text {
@@ -1225,7 +1233,7 @@ footer img {
     }
 
     .services-btn {
-         margin-top: 20px;
+         margin-top: 40px;
     }
 }
 
@@ -1233,11 +1241,6 @@ footer img {
     #services-intro {
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .services-btn {
-        margin-left: 70px;
-        margin-top: 50px;
     }
 
     #services-intro-1 {
