@@ -274,6 +274,64 @@ header {
     transform: rotate(180deg);
 }
 
+@media only screen and (min-width: 1240px) {
+    .hero-text{
+        position: absolute;
+        top: 25vh;
+        left: 20vw;
+    }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1240px) {
+    .hero-text{
+        position: absolute;
+        top: 20vh;
+        left: 20vw;
+        font-size: .9em;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 980px){
+    .hero-text{
+        position: absolute;
+        top: 20vh;
+        left: 16vw;
+        font-size: .8em;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 800px){
+    .hero-text{
+        position: absolute;
+        top: 16vh;
+        left: 18vw;
+        font-size: .8em;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .hero-text{
+        display: none;
+    }
+}
+
+.hero-text>p{
+    color:#293249;
+    line-height: 2em;
+}
+
+.hero-text>p::after {
+    content:'';
+    display: block;
+    border-bottom: 1px solid #293249;
+
+}
+
+span.hero-text__services {
+    color: #507274;
+    line-height: 1.5em;
+}
+
 #home-about {
     margin-top: 30px;
 }
