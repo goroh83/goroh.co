@@ -44,7 +44,7 @@ function goBack() {
 }
 
 /* scroll down button */
-$(".scroll__img").click(function () {
+$(".scroll__down").click(function () {
     $('html, body').animate({
         scrollTop: $(".scroll-down").offset().top
     }, 800);
