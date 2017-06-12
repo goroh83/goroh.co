@@ -33,6 +33,13 @@ h6 {
     line-height: 1em;
     padding-bottom: 10px;
 }
+
+/*
+h3 {
+    font-size: .8em;
+}
+*/
+
 button {
     background: none;
     text-transform: uppercase;
@@ -287,7 +294,7 @@ header {
 @media only screen and (min-width: 980px) and (max-width: 1240px) {
     .hero-text {
         position: absolute;
-        top: 175px;
+        top: 125px;
         left: 20vw;
         font-size: .9em;
     }
@@ -1092,6 +1099,11 @@ footer img {
     margin-top: 40px;
     padding-top: 20px;
 }
+
+#services-descr p{
+    font-size: .85em;
+}
+
 #services-intro-1 {
     margin-right: 50px;
 }
@@ -1268,6 +1280,24 @@ footer img {
 .acc-para {
     max-height: 0;
     display: none;
+}
+
+#prices {
+    margin: 30px;
+}
+
+#prices a {
+    color: #507274;
+    font-weight: 400;
+}
+
+#prices a.btn {
+    color: white;
+    font-weight: 400;
+}
+
+#prices p {
+    margin-bottom: 20px;
 }
 
 /************************************* WORK page style ***********************************/
