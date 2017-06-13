@@ -211,6 +211,7 @@ a.btn {
     box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.3);
     transition: all ease-in-out 300ms;
     background-color: #386F72;
+    letter-spacing: .2em;
 }
 a.btn:hover {
     color: #f1f1f1;
@@ -1103,6 +1104,11 @@ footer img {
 #accord h3 {
     cursor: pointer;
 }
+
+#services-descr h2 {
+    font-size: .9em;
+}
+
 .services-intro__hr {
     margin-top: 0px;
 }
