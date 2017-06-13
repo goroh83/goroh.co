@@ -1106,7 +1106,11 @@ footer img {
 }
 
 #services-descr h2 {
-    font-size: .9em;
+    font-size: 1.2em;
+}
+
+#services-descr p {
+    font-size: .85em;
 }
 
 .services-intro__hr {
