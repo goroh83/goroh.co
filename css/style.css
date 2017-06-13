@@ -338,9 +338,6 @@ div.hero-text__services {
 #home-about div {
     padding: 20px;
 }
-#home-intro div {
-    padding: 30px;
-}
 .home-about-2 .goroh-avatar {
     max-width: 70%;
 }
@@ -483,6 +480,10 @@ footer img {
         display: inline-block;
         margin: 20px auto;
     }
+
+    #home-intro div {
+    padding: 30px;
+}
 }
 @media only screen and (max-width: 860px) {
     .btn {
@@ -496,6 +497,7 @@ footer img {
         display: inline-block;
         margin: 5px auto;
     }
+
 }
 .hr-half {
     width: 50%;
@@ -503,6 +505,7 @@ footer img {
 }
 
 /************************************* HOME page style ***********************************/
+
 
 @media only screen and (min-width: 860px) {
     /****** HOME flex ******/
@@ -528,6 +531,11 @@ footer img {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
+    #home-intro div {
+        padding: 30px;
+    }
+
     .home-intro-1 {
         flex: 1;
         width: 50%;
@@ -595,6 +603,13 @@ footer img {
         height: auto;
         display: block;
         margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    #home-intro div {
+        padding: 10px 20px;
+        max-width: 80%;
     }
 }
 
@@ -713,6 +728,13 @@ footer img {
     .parallax2 {
         height: 350px;
     }
+    .home-about-2 img {
+        display: none;
+    }
+    #home-intro img {
+        display: none;
+    }
+
 }
 
 /* instagram icon menu adjustment */
