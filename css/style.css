@@ -41,6 +41,12 @@ button {
     display: block;
     border: none;
 }
+
+.btn-center {
+    margin: 10px 0;
+    text-align: center;
+    }
+
 #submit-btn {
     margin-left: 0;
 }
@@ -322,7 +328,7 @@ header {
     display: block;
     border-bottom: 1px solid #293249;
 }
-span.hero-text__services {
+div.hero-text__services {
     color: #507274;
     line-height: 1.5em;
 }
@@ -379,19 +385,17 @@ blockquote {
     color: #f1f1f1;
     font-size: .9em
 }
+
 .parallax1 {
-    position: relative;
     background-image: url(../img/paralax1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 2em;
-    margin-top: 3em;
 }
+
 .parallax2 {
-    position: relative;
     background-image: url(../img/paralax2.jpg);
+}
+
+.parallax1, .parallax2{
+    position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -399,8 +403,9 @@ blockquote {
     margin-bottom: 2em;
     margin-top: 3em;
 }
+
 .parallax-text {
-    width: 80%;
+    max-width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -409,13 +414,12 @@ blockquote {
 }
 .parallax-text h2 {
     font-size: 1.7em;
-    padding-bottom: 20px;
-    padding-top: 10px;
 }
 .parallax-text p {
     font-size: 1.2em;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 #footer-hr {
     margin-top: 50px;
 }
@@ -470,35 +474,27 @@ footer img {
         margin: 0 auto;
     }
     .btn {
-        padding: 12px 20px 12px 20px;
-        margin-top: 20px;
+        padding: 12px 20px;
         background-color: #507274;
         color: #f1f1f1;
         text-transform: uppercase;
         font-size: .5em;
         border-radius: 3px;
-        transition: background-color .8s ease;
         display: inline-block;
         margin: 20px auto;
-        letter-spacing: 2px;
     }
 }
 @media only screen and (max-width: 860px) {
     .btn {
-        padding: 12px 16px 12px 16px;
+        padding: 12px 16px;
         margin-top: 10px;
         background-color: #507274;
         color: #f1f1f1;
         text-transform: uppercase;
         font-size: .5em;
         border-radius: 3px;
-        transition: background-color .8s ease;
         display: inline-block;
         margin: 5px auto;
-    }
-    .btn-center {
-        margin: 10px 0;
-        text-align: center;
     }
 }
 .hr-half {
@@ -1270,6 +1266,20 @@ footer img {
     display: none;
 }
 
+#services-prices {
+    margin: 30px;
+}
+
+#services-prices p{
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    #services-prices {
+        max-width: 75%;
+    }
+}
+
 /************************************* WORK page style ***********************************/
 
 #work a {
@@ -1473,7 +1483,7 @@ textarea:focus {
 }
 form label {
     font-size: .6em;
-    display: block
+    display: block;
 }
 .success-wrapper {
     max-width: 300px;
