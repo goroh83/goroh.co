@@ -48,7 +48,7 @@ button {
     }
 
 #submit-btn {
-    margin-left: 0;
+    margin-left: 0vw;
 }
 #parallax-btn {
     margin-top: 5px;
@@ -1425,6 +1425,7 @@ input.btn-submit {
     transition: all ease-in-out 300ms;
     color: #f1f1f1;
     font-size: .5em;
+    letter-spacing: .2em;
     border-radius: 3px;
     background-color: #386F72;
     text-transform: uppercase;
