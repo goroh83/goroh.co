@@ -374,6 +374,10 @@ div.hero-text__services {
     text-align: right;
 }
 
+.testimony-text figcaption a {
+    font-size: .75em;
+}
+
 .test-pic {
     position: absolute;
     display: inline;
