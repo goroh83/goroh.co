@@ -1102,6 +1102,13 @@ footer img {
 #accord {
     margin: 40px 30px 30px 30px;
 }
+
+@media only screen and (min-width: 860px) {
+    #services__contact--btn {
+        margin-top: 40px;
+    }
+}
+
 #accord h3 {
     cursor: pointer;
 }
