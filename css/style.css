@@ -288,14 +288,14 @@ header {
 @media only screen and (min-width: 1240px) {
     .hero-text {
         position: absolute;
-        top: 200px;
+        top: 180px;
         left: 20vw;
     }
 }
 @media only screen and (min-width: 980px) and (max-width: 1240px) {
     .hero-text {
         position: absolute;
-        top: 175px;
+        top: 150px;
         left: 20vw;
         font-size: .9em;
     }
@@ -303,7 +303,7 @@ header {
 @media only screen and (min-width: 800px) and (max-width: 980px) {
     .hero-text {
         position: absolute;
-        top: 150px;
+        top: 125px;
         left: 16vw;
         font-size: .85em;
     }
@@ -311,7 +311,7 @@ header {
 @media only screen and (min-width: 700px) and (max-width: 800px) {
     .hero-text {
         position: absolute;
-        top: 125px;
+        top: 110px;
         left: 18vw;
         font-size: .85em;
     }
@@ -361,10 +361,85 @@ div.hero-text__services {
 }
 .testimony-container {
     background-color: #293249;
+    position: relative;
 }
+
+.testimonials-quote {
+    display: block;
+    padding-bottom: 60px;
+}
+
 .testimony-text figcaption {
+    position: absolute;
     text-align: right;
 }
+
+.test-pic {
+    position: absolute;
+    display: inline;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 970px) {
+    .testimonials-quote {
+        display: block;
+        padding-bottom: 60px;
+    }
+
+    .test-pic {
+        right: 80px;
+        bottom: 30px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .testimony-text figcaption {
+        right: 190px;
+        bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 970px) {
+    .testimonials-quote {
+        display: block;
+        padding-bottom: 90px;
+    }
+
+    .test-pic {
+        right: 65px;
+        bottom: 30px;
+        width: 90px;
+        height: 90px;
+    }
+    .testimony-text figcaption {
+        right: 190px;
+        bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .test-pic {
+        right: 65px;
+        bottom: 40px;
+        width: 50px;
+        height: 50px;
+    }
+    .testimony-text figcaption {
+        right: 140px;
+        bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .test-pic {
+        display: none;
+    }
+    .testimony-text figcaption {
+        position: relative;
+    }
+}
+
+
 blockquote {
     padding-bottom: 15px;
 }
@@ -507,6 +582,15 @@ footer img {
 }
 
 /************************************* HOME page style ***********************************/
+
+#hero-text__heading {
+    font-family: 'Ovo', serif;
+    font-size: 1.3em;
+}
+
+.hero-text__services {
+    margin-top: 10px;
+}
 
 
 @media only screen and (min-width: 860px) {
