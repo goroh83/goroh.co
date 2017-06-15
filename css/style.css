@@ -124,6 +124,35 @@ header:after {
     overflow-x: hidden;
     max-width: 100%;
 }
+
+#menu-2 ul li a {
+    position: relative;
+}
+
+#menu-2 ul li a::after {
+    content:'';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: -0.5px;
+    height: .25px;
+    background: #293249;
+    -webkit-transition: .5s ease;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    width: 0;
+}
+
+
+#menu-2 ul li a:hover::after {
+    width: 100%;
+}
+
+
+.menu-active {
+    border-bottom: 1px solid #293249;
+}
+
 @media only screen and (min-width: 500px) {
     header:after {
         padding-top: 65px;
