@@ -47,5 +47,23 @@ function goBack() {
 $(".scroll__down").click(function () {
     $('html, body').animate({
         scrollTop: $(".scroll-down").offset().top
-    }, 800);
+    }, 750);
 });
+
+
+/*  scroll to top */
+$('#scroll__top').click(function(){
+    $('html, body').animate({
+        scrollTop: 0 }, 600);
+  return false;
+});
+
+window.onscroll = function() {scrollFunction()};
+var scrollTop = document.getElementById("scroll__top");
+function scrollFunction() {
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+        scrollTop.style.visibility = "visible";
+    } else {
+        scrollTop.style.visibility = "hidden";
+    }
+}

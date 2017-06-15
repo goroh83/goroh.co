@@ -21,6 +21,17 @@ html {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+#scroll__top {
+    position: fixed;
+    bottom:20px;
+    right: 20px;
+    height: 30px;
+    width: auto;
+    z-index: 5;
+    background: rgba(0, 0, 0, .1);
+    transition: all 300 linear;
+}
 h1,
 h2,
 h3,
@@ -133,7 +144,7 @@ header:after {
     padding: 5px;
     margin: 5px;
     width: auto;
-    border: 1px solid #507274;
+    border: 1.3px solid #507274;
 }
 @keyframes bounce {
     0%,
@@ -391,14 +402,14 @@ div.hero-text__services {
     }
 
     .test-pic {
-        right: 80px;
+        right: 92px;
         bottom: 30px;
         width: 90px;
         height: 90px;
     }
 
     .testimony-text figcaption {
-        right: 190px;
+        right: 205px;
         bottom: 40px;
     }
 }
