@@ -1,7 +1,6 @@
 <?php
 
   $name = $_POST['name'];
-  $subject = $_POST['subject'] ;
   $email = $_POST['email'];
   $msg = $_POST['msg'];
   $antispam = $_POST['antispam'];
@@ -13,9 +12,6 @@ $Body = "";
 $Body .= "Name: ";
 $Body .= $name;
 $Body .= "\n";
-$Body .= "Subject: ";
-$Body .= $subject;
-$Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
 $Body .= "\n";
@@ -26,8 +22,7 @@ $Body .= "\n";
 
 if(isset($_POST['url']) && $_POST['url'] == '')  {
 
-    if ( !isset($msg) || trim($msg) == '' || !isset($name) || trim($name) == ''  || !isset($subject) || trim($subject) == ''  || !isset($email) ||
-    trim($email) == '') {
+    if ( !isset($msg) || trim($msg) == '' || !isset($name) || trim($name) == ''  || !isset($email) || trim($email) == '') {
         header("Location: contact-error.html");
         exit();
 

@@ -13,7 +13,7 @@ html {
     font-size: 18px;
     font-family: 'Muli', sans-serif;
     font-weight: 300;
-    color: #565656;
+    color: #747474;
     background-color: #fff;
     margin: 0;
     padding: 0;
@@ -29,12 +29,16 @@ html {
     height: 30px;
     width: auto;
     z-index: 5;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0, 0, 0, .05);
     padding: 3px;
+    border-radius: 2px;
     display: none;
+    transition: all ease-in-out 300ms;
 }
 
-
+.scroll__top:hover {
+    background: rgba(0, 0, 0, .2);
+}
 
 h1,
 h2,
@@ -371,7 +375,7 @@ div.hero-text__services {
     max-width: 900px
 }
 #home-intro {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 .testimony-container {
     background-color: #293249;
@@ -474,7 +478,7 @@ blockquote {
     padding: 50px;
     max-width: 1200px;
     margin: 0 auto;
-    color: #f1f1f1;
+    color: #fff;
     font-size: .9em
 }
 
@@ -528,14 +532,16 @@ footer nav {
 }
 .footer-nav ul li {
     display: inline-block;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 .footer-nav a {
     color: #293249;
     font-size: .9em;
-    padding-left: 10px;
-    padding-right: 10px;
+    letter-spacing: .05em;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 .footer-nav a:hover {
     color: #507274;
@@ -543,8 +549,10 @@ footer nav {
 footer #copyright {
     display: inline-block;
     font-size: .8em;
-    margin: 40px 0 15px 0;
-    padding: 0px 0;
+    margin: 20px 0 20px 0;
+    padding: 0px auto 10px auto;
+    color: #293249;
+    letter-spacing: .05em;
 }
 footer #copyright a {
     color: #507274;
@@ -566,7 +574,7 @@ img.email_footer {
     width: 2em;
     margin-left:10px;
     margin-right:10px;
-    margin-bottom: 3.5px;
+    padding-bottom: 2.5px;
 }
 
 img.tel_footer {
@@ -575,8 +583,13 @@ img.tel_footer {
     width: auto;
     margin-left:10px;
     margin-right:10px;
-    margin-bottom: 2.5px;
+    margin-bottom: 2px;
 }
+
+@media only screen and (min-width: 860px) {
+
+}
+
 
 /* btn style*/
 
@@ -597,7 +610,7 @@ img.tel_footer {
     }
 
     #home-intro div {
-    padding: 30px;
+    padding: 0 30px 30px 30px;
 }
 }
 @media only screen and (max-width: 860px) {
@@ -630,6 +643,10 @@ img.tel_footer {
     margin-top: 10px;
 }
 
+
+.goroh-avatar {
+    margin-top: 45px;
+}
 
 @media only screen and (min-width: 860px) {
     /****** HOME flex ******/
@@ -1075,6 +1092,15 @@ img.tel_footer {
 
 /************************************* ABOUT page style ***********************************/
 
+.about-pic-1 {
+    margin-top: 10px;
+}
+
+.about-2-2 {
+    margin-top: 10px;
+}
+
+
 .about-banner {
     background-color: #293249;
     margin-top: 20px
@@ -1153,7 +1179,7 @@ img.tel_footer {
     }
     #about-1 img,
     #about-2 img {
-        max-width: 70%;
+        max-width: 50%;
     }
     .about-col p {
         text-align: center;

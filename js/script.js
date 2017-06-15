@@ -61,7 +61,7 @@ $('.scroll__top').click(function(){
 $(window).on('scroll', function() {checkScroll()});
 
 function checkScroll() {
-    if ($(window).scrollTop() > 600) {
+    if ($(window).scrollTop() > 900) {
         $('.scroll__top').fadeIn(700);
     } else {
         $('.scroll__top').fadeOut(500);
