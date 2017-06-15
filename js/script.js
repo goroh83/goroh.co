@@ -52,18 +52,18 @@ $(".scroll__down").click(function () {
 
 
 /*  scroll to top */
-$('#scroll__top').click(function(){
+$('.scroll__top').click(function(){
     $('html, body').animate({
         scrollTop: 0 }, 600);
   return false;
 });
 
-window.onscroll = function() {scrollFunction()};
-var scrollTop = document.getElementById("scroll__top");
-function scrollFunction() {
-    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
-        scrollTop.style.visibility = "visible";
+$(window).on('scroll', function() {checkScroll()});
+
+function checkScroll() {
+    if ($(window).scrollTop() > 600) {
+        $('.scroll__top').fadeIn(700);
     } else {
-        scrollTop.style.visibility = "hidden";
+        $('.scroll__top').fadeOut(500);
     }
 }

@@ -22,7 +22,7 @@ html {
     overflow-x: hidden;
 }
 
-#scroll__top {
+.scroll__top {
     position: fixed;
     bottom:20px;
     right: 20px;
@@ -30,8 +30,15 @@ html {
     width: auto;
     z-index: 5;
     background: rgba(0, 0, 0, .1);
-    transition: all 300 linear;
+    padding: 3px;
+    display: none;
 }
+
+.scroll_visible {
+    visibility: visible;
+}
+
+
 h1,
 h2,
 h3,
