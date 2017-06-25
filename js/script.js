@@ -67,3 +67,5 @@ function checkScroll() {
         $('.scroll__top').fadeOut(500);
     }
 }
+
+document.getElementById("back-error").addEventListener("click", window.history.back, false);

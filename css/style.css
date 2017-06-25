@@ -1730,13 +1730,8 @@ form label {
     margin: auto;
     padding-top: 10px;
 }
-.error {
-    margin-left: -100%;
-    background-color: #D15757;
-    border-radius: 5px;
-}
+
 .error p {
-    background-color: #D15757;
     color: #f1f1f1;
     padding: 10px 0px;
     text-align: center
@@ -1747,16 +1742,6 @@ form label {
     display: block;
     margin: auto;
     padding-top: 10px;
-}
-.error button {
-    display: block;
-    background-color: #D15757;
-    height: 40px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    color: #fff;
-    padding: 10px 0px;
-    font-size: .8em;
 }
 
 .success {
@@ -1776,6 +1761,23 @@ form label {
     font-size: .8em;
 }
 
+.error {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px 20px 20px;
+    border-radius: 2px;
+    background-color: #D15757;
+}
+
+.error a {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: .8em;
+}
 
 /*
 @media only screen and (max-width: 890px) {
