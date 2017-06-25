@@ -29,6 +29,7 @@ if(isset($_POST['url']) && $_POST['url'] == '')  {
     } else {
         mail($to, 'GOROH STUDIO contact form' , $Body);
         header("Location: contact-success.html");
+
         exit();
     }
 

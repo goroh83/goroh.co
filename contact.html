@@ -124,7 +124,7 @@
 
 
 
-        <div class="contact-form">
+        <div class="contact-form" id='message-sent'>
             <hr>
             <h2 data-aos-delay="200" data-aos="fade-out" data-aos-duration="2000" data-aos-once="true">Contact form</h2>
             <form action="contact.php" method="POST">
@@ -139,13 +139,9 @@
                     <input type="text" name="url" />
                 </label>
                 <label for="textarea" data-aos-delay="1400" data-aos="fade-out" data-aos-duration="2000" data-aos-once="true">Message</label>
-                <textarea data-aos-delay="900" data-aos="fade-out" data-aos-once="true" data-aos-duration="2000" rows="10" cols="70" class="form-control" name="msg" id="msg">
+                <textarea data-aos-delay="900" required data-aos="fade-out" data-aos-once="true" data-aos-duration="2000" rows="10" cols="70" class="form-control" name="msg" id="msg">
                 </textarea>
                 <br>
-                <div class="success contact-hidden">
-                    <img src="../img/success.svg" alt="message sent">
-                    <p>Message sent. thanks, will get back to you soon</p>
-                </div>
                 <button id="submit-btn">
                     <input class="btn-submit" type="submit" value="send message">
                 </button>
