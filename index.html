@@ -33,27 +33,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-89931385-1', 'auto');
-        ga('send', 'pageview');
+        !function(e,t,a,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||       []).push(arguments)},e[c].l=1*new Date,o=t.createElement(a),s=t.getElementsByTagName(a)     [0],o.async=1,o.src="https://www.google-analytics.com/analytics.js",s.parentNode.insertBefore(o,s)} (window,document,"script",0,"ga"),ga("create","UA-89931385-1","auto"),ga("send","pageview");
     </script>
     <meta name="google-site-verification" content="8PVTcknIyvulnz-giLJ5m1rllcGwZMxui8qXq9iBYAI" />
 </head>
 
 <body>
-   <a href="#top">
-       <img src="img/go-up.svg" alt="" class="scroll__top" title="scroll to top">
-   </a>
+    <a href="#top">
+        <img src="img/go-up.svg" alt="" class="scroll__top" title="scroll to top">
+    </a>
 
     <picture>
         <source media="(min-width: 1241px)" srcset="img/home-lg.jpg">
@@ -62,23 +50,12 @@
     </picture>
 
     <header>
-        <a href="/"><img src="img/logo.svg" alt="goroh studio" id="logo-icon" title="homepage" data-aos="fade-in" data-aos-duration="2000" data-aos-once="true" data-aos-delay="250"></a>
-        <img src="img/menu5.svg" alt="goroh studio menu" id="menu-icon" title="menu">
-        <div class="scroll">
-            <img src="img/down.svg" alt="" class="scroll__down">
-        </div>
         <div class="hero-text scroll__down" data-aos-delay="2400" data-aos="fade-out" data-aos-duration="2000" data-aos-once="true" title="find out more">
             <p id="hero-text__heading">welcome to goroh studio</p>
             <div class="hero-text__services">
-                <p>web design
-                    <br>
-                </p>
-                <p>web development
-                    <br>
-                </p>
-                <p>photography
-                    <br>
-                </p>
+                <p>web design<br></p>
+                <p>web development<br></p>
+                <p>photography<br></p>
             </div>
         </div>
 
@@ -97,6 +74,12 @@
                 </li>
             </ul>
         </nav>
+
+        <a href="/"><img src="img/logo.svg" alt="goroh studio" id="logo-icon" title="homepage" data-aos="fade-in" data-aos-duration="2000" data-aos-once="true" data-aos-delay="250"></a>
+        <img src="img/menu5.svg" alt="goroh studio menu" id="menu-icon" title="menu">
+        <div class="scroll">
+            <img src="img/down.svg" alt="" class="scroll__down">
+        </div>
 
         <div class="social-icons-top">
             <a href="https://www.instagram.com/goroh_studio"><img alt="instagram link" src="img/insta-2.svg" class="insta-2" data-aos-delay="1250" data-aos="fade-down" data-aos-duration="2000" data-aos-once="true" title="Goroh studio instagram page"></a>
@@ -257,19 +240,16 @@
         </nav>
         <p id="copyright">designed by <a href="http://goroh.co">[goroh]</a> studio &copy; 2017
         </p>
-        <p><img src="img/tel.svg" alt=""class="tel_footer" title="soon"><a href="mailto:info@goroh.co" ><img src="img/email.svg" alt="" class="email_footer" title="email goroh studio"></a><a href="https://www.instagram.com/goroh_studio/"><img src="img/insta-2.svg" alt="instagram link" title="Goroh studio Instagram page" class="socials-bottom"></a>
-            <a href="https://www.facebook.com/goroh.co/"><img src="img/fb-2.svg" alt="facebook link" title="Goroh studio Facebook page" class="socials-bottom"></a></p>
+        <p><img src="img/tel.svg" alt="" class="tel_footer" title="soon">
+            <a href="mailto:info@goroh.co"><img src="img/email.svg" alt="" class="email_footer" title="email goroh studio"></a>
+            <a href="https://www.instagram.com/goroh_studio/"><img src="img/insta-2.svg" alt="instagram link" title="Goroh studio Instagram page" class="socials-bottom"></a>
+            <a href="https://www.facebook.com/goroh.co/"><img src="img/fb-2.svg" alt="facebook link" title="Goroh studio Facebook page" class="socials-bottom"></a>
+        </p>
     </footer>
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000
-        });
-    </script>
-
+    <script>AOS.init({duration: 1000});</script>
 </body>
-
 </html>
