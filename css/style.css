@@ -22,6 +22,7 @@ html {
     overflow-x: hidden;
 }
 .scroll__top {
+    cursor: pointer;
     position: fixed;
     bottom: 16px;
     right: 18px;
@@ -99,7 +100,7 @@ img {
     margin: 0 auto;
     max-width: 100%;
 }
-img.socials-bottom {
+svg.socials-bottom {
     height: 35px;
 }
 .img-shadow {
@@ -163,12 +164,13 @@ header:after {
     -moz-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
 }
-.scroll img {
+.scroll svg {
     cursor: pointer;
     margin-left: -50%;
     padding: 5px;
     margin: 5px;
     width: auto;
+    height: 40px;
     border: 1.2px solid #507274;
 }
 @keyframes bounce {
@@ -559,14 +561,14 @@ footer #copyright a {
 footer #copyright a:hover {
     color: #524D70;
 }
-footer img.socials-bottom {
+footer svg.socials-bottom {
     height: 1.35em;
     width: auto;
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
 }
-img.email_footer {
+svg.email_footer {
     display: inline;
     height: 1.15em;
     width: 2em;
@@ -574,7 +576,7 @@ img.email_footer {
     margin-right: 10px;
     padding-bottom: 2.5px;
 }
-img.tel_footer {
+svg.tel_footer {
     display: inline;
     height: 1.15em;
     width: auto;
@@ -745,6 +747,7 @@ img.tel_footer {
         display: none;
     }
     #logo-icon {
+        cursor: pointer;
         position: absolute;
         display: block;
         top: 0px;
@@ -834,6 +837,7 @@ img.tel_footer {
     }
     .socials {
         display: block;
+        margin: auto auto;
         height: 1.6em;
     }
     .social-icons-top {
@@ -1739,3 +1743,12 @@ form label {
         height: 30px;
         width: auto;
     }
+}
+
+/************    SVGs stylings ************/
+.logo0{fill:none;}
+.logo1{fill:#293249;}
+.bottom-menu {fill:#293249;stroke:#293249;stroke-width:0.5;stroke-miterlimit:10;        }
+.scroll-up{fill:#507274;}
+.down-scroll{fill:#507274;stroke:#507274;stroke-miterlimit:10;}
+.st0{fill:#293249;stroke:#293249;stroke-width:0.5;stroke-miterlimit:10;}
