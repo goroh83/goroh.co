@@ -1,4 +1,13 @@
-    ::selection {
+@font-face {
+  font-family: 'Muli';
+  src:  url('../fonts/Muli-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Ovo';
+  src:  url('../fonts/Ovo-Regular.ttf') format('truetype');
+}
+
+::selection {
     color: #f1f1f1;
     background: #7F9899;
 }
@@ -171,7 +180,7 @@ header:after {
     margin: 5px;
     width: auto;
     height: 40px;
-    border: 1.2px solid #507274;
+    border: 1.2px solid #7F9899;
 }
 @keyframes bounce {
     0%,
@@ -1750,5 +1759,5 @@ form label {
 .logo1{fill:#293249;}
 .bottom-menu {fill:#293249;stroke:#293249;stroke-width:0.5;stroke-miterlimit:10;        }
 .scroll-up{fill:#507274;}
-.down-scroll{fill:#507274;stroke:#507274;stroke-miterlimit:10;}
+.down-scroll{fill:#7F9899;stroke:#7F9899;stroke-miterlimit:10;}
 .st0{fill:#293249;stroke:#293249;stroke-width:0.5;stroke-miterlimit:10;}
