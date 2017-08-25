@@ -1,3 +1,5 @@
+@import: url("map.css");
+
 @font-face {
   font-family: 'Muli';
   src:  url('../fonts/Muli-Light.ttf') format('truetype');
@@ -1621,7 +1623,7 @@ input.btn-submit:hover {
         margin: 50px 30px 30px 30px;
     }
     .contact-form {
-        max-width: 60%;
+        max-width: 50%;
         margin: 50px 30px 30px 30px;
     }
 }
@@ -1752,6 +1754,17 @@ form label {
         height: 30px;
         width: auto;
     }
+}
+
+.map-container{
+    display: flex;
+    justify-content: center;
+}
+
+#map {
+    margin-top: 100px;
+    height: 500px;
+    width: 1920px;
 }
 
 /************    SVGs stylings ************/
