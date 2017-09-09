@@ -1588,7 +1588,7 @@ input.btn-submit:hover {
         margin: 50px 30px 30px 30px;
     }
     .contact-intro-2 img {
-        height: 130px;
+        height: 75px;
         margin-top: 25px;
     }
     .contact-intro-3 {
@@ -1615,8 +1615,8 @@ input.btn-submit:hover {
         flex: 2;
     }
     .contact-intro-2 img {
-        height: 160px;
-        padding-top: 40px;
+        height: 75px;
+        padding-top: 80px;
     }
     .contact-intro-3 {
         width: 60%;
