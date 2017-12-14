@@ -1,0 +1,4 @@
+[25-Jun-2017 02:58:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home1/goroh83/public_html/goroh.co/contact.php on line 32
+[25-Jun-2017 03:17:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home1/goroh83/public_html/goroh.co/contact.php on line 32
+[25-Jun-2017 03:18:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home1/goroh83/public_html/goroh.co/contact.php on line 24
+[25-Jun-2017 03:19:20 America/Chicago] PHP Fatal error:  Call to undefined function getElementById() in /home1/goroh83/public_html/goroh.co/contact.php on line 32
